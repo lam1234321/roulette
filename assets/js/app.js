@@ -366,7 +366,7 @@ function buildBettingBoard(){
 
 	let chipDeck = document.createElement('div');
 	chipDeck.setAttribute('class', 'chipDeck');
-	let chipValues = [1, 5, 10, 100, 500, 'clear'];
+	let chipValues = [100, 500, 1000, 10000, 'clear'];
 	for(i = 0; i < chipValues.length; i++){
 		let cvi = i;
 		let chipColour = (i == 0)? 'red' : ((i == 1)? 'blue cdChipActive' : ((i == 2)? 'orange' : ((i == 3)? 'gold' : 'clearBet')));
